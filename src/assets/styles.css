@@ -1,0 +1,52 @@
+@media(min-width: 768px){
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*:root{
+    --main-colour: #F3AD2B;
+    --black-mate: #333;
+    --gray-border: #d2d2d7;
+}*/
+.hola{
+    font-size: 40px;
+       
+}
+.card{
+    background-color: #F3AD2B;
+    width: 25vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.users{
+    position: relative;
+    right: -360px;
+    top: -100vw
+}
+.logo{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.users-json{    
+    padding: 20px;
+}
+.data-users{
+    font-size: 20px;
+}
+h1{
+    align-self: center;
+}
+.found{
+    align-self: center;
+}
+.info-user{
+    font-size: 20px;
+    position: relative;
+    right: -360px;
+    top: -100vw
+}
+}
