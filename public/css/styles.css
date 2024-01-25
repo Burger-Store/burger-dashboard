@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+body{
+    display: flex;
+}
+:root {
+    --main-colour: #f3ad2b;
+    --red-colour: #FF8080;
+    --blue-colour: #39A7FF;
+    --green-colour: #7ec4cf;
+    --disabled-color: #EEEEEE;
+    --black-mate: #333;
+    --gray-border: #d2d2d7;
+    --fuente-texto: "Roboto", sans-serif;
+}
+  
+.sidebar{
+    position: sticky;
+    width: 250px;
+    height: 80vw;
+    background-color: var(--main-colour);
+    padding: 10px;
+    border-right: #333 solid 2px;
+}
+.sidebar img {
+    width: 150px;
+    position: relative;
+    left: 30px;
+}
+.sidebar p{
+    padding: 15px;
+    color: white;
+    font-size: 18px ;
+}
+.main-cont{
+    padding: 2.4em;
+}   
+.img-neymar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    border: #333 solid 2px;
+}
+.header-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--main-colour);
+    width: 74vw;
+    height: 6em;
+    border-radius: 5px;
+    border: #333 solid 2px;
+}
+.header-cont p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.total{
+    display: flex;
+    margin: 10px;
+    font-size: 15px;
+    justify-content: center;
+    
+}
+.totales{
+    padding: 20px;
+}
+.users{
+    background-color: var(--main-colour);
+    width: 18em;
+    padding: 15px;    
+    border-radius: 5px;
+    border: #333 solid 2px;
+}
+.products{
+    background-color: var(--main-colour);
+    width: 18em;
+    padding: 15px;    
+    border-radius: 5px;
+    border: #333 solid 2px;
+}
+.category{
+    background-color: var(--main-colour);
+    width: 18em;
+    padding: 15px;    
+    border-radius: 5px;
+    border: #333 solid 2px;
+}
+.l{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 22px;
+}
+.listado-productos{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 22px;
+
+}
+.products i{
+    position: relative;
+    left: 9em;
+    font-size: 25px;
+}
+.users i{
+    position: relative;
+    left: 9em;
+    font-size: 25px;
+}
+.category i{
+    position: relative;
+    left: 9em;
+    font-size: 25px;
+}
+h1{
+    margin-top: 18em;
+}
+.list{
+    background-color: var(--main-colour);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: #333 solid 2px;
+}
+.list-id{
+    text-align: center;
+    padding: 5px;
+}
