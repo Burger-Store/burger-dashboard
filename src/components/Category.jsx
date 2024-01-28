@@ -4,7 +4,7 @@ class Category extends Component {
     constructor (props){
         super (props);
         this.state = {
-            categorias: []
+            categories: []
         }
     }
     getAllUsers(url, handle){
@@ -19,7 +19,7 @@ class Category extends Component {
     }
     info = (data) => {
         this.setState({
-            categorias: data.data
+            categories: data.data
         })
     };
     componentDidMount() {
@@ -30,7 +30,7 @@ class Category extends Component {
             <div className="totales">
             <div className="category">
                 <h2>Categorias</h2>
-                <p> Cantidad de categorias: {this.state.categorias.length}</p>
+                <p> Cantidad de categorias: {this.state.categories.length}</p>
                 <i className="fa-solid fa-list"></i>
             </div>
             </div>

@@ -9,12 +9,10 @@ const ProductList = () => {
 
     const obtenerDatos = async () =>{
         const data = await fetch('http://localhost:3000/products')
-        const users = await data.json()
-        setproductsList(users.data)
+        const products = await data.json()
+        setproductsList(products.data)
     }
-
-    return (
-       
+    return ( 
     <table className="list">
             <thead>
                 <tr>
@@ -31,8 +29,8 @@ const ProductList = () => {
                         <td className="list-id">{product.idproducts}</td>
                         <td  className="list-id">{product.name}</td>
                         <td className="list-id">{product.description}</td>
-                        <th className="list-id">{product.price}</th>
-                        <th className="list-id">{product.idcategory}</th>
+                        <td className="list-id">{product.price}</td>
+                        <td className="list-id">{product.idcategory}</td>
                     </tr>
                     ))
 

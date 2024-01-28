@@ -5,7 +5,7 @@ class Products extends Component {
     constructor (props){
         super (props);
         this.state = {
-            productos: ""
+            product: []
         }
     }
     getAllUsers(url, handle){
@@ -23,7 +23,7 @@ class Products extends Component {
     }
     info = (data) => {
         this.setState({
-            productos: data.data
+            product: data.data
         })
     };
     render(){
@@ -31,7 +31,7 @@ class Products extends Component {
             <div className="totales">
             <div className="products">
                 <h2>Productos</h2>
-                <p> Cantidad de Productos: {this.state.productos.length}</p>
+                <p> Cantidad de Productos: {this.state.product.length}</p>
                 <i className="fa-solid fa-burger"></i>
             </div>
             </div>
